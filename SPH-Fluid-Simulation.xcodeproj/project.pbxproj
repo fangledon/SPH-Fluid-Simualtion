@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37626267241AF8B60074691C /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37626266241AF8B60074691C /* GLUT.framework */; };
+		37626269241AF8C20074691C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37626268241AF8C20074691C /* OpenGL.framework */; };
+		3762626B241AF8EA0074691C /* libglfw.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3762626A241AF8EA0074691C /* libglfw.dylib */; };
+		3762627E241AF96D0074691C /* Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3762626C241AF96C0074691C /* Vector3.cpp */; };
+		37626280241AF96D0074691C /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3762626F241AF96D0074691C /* Camera.cpp */; };
+		37626281241AF96D0074691C /* FluidParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37626271241AF96D0074691C /* FluidParticle.cpp */; };
+		37626282241AF96D0074691C /* Tester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37626278241AF96D0074691C /* Tester.cpp */; };
+		37626283241AF96D0074691C /* Core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37626279241AF96D0074691C /* Core.cpp */; };
+		37626284241AF96D0074691C /* Fluid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3762627A241AF96D0074691C /* Fluid.cpp */; };
+		37626285241AF96D0074691C /* SpatialHashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3762627B241AF96D0074691C /* SpatialHashTable.cpp */; };
+		37626286241AF96D0074691C /* Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3762627C241AF96D0074691C /* Plane.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37626259241AF8490074691C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3762625B241AF8490074691C /* SPH-Fluid-Simulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SPH-Fluid-Simulation"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37626266241AF8B60074691C /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		37626268241AF8C20074691C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		3762626A241AF8EA0074691C /* libglfw.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.dylib; path = ../../../../Applications/libglfw.dylib; sourceTree = "<group>"; };
+		3762626C241AF96C0074691C /* Vector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3.cpp; sourceTree = "<group>"; };
+		3762626D241AF96C0074691C /* Vector3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vector3.hpp; sourceTree = "<group>"; };
+		3762626F241AF96D0074691C /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		37626270241AF96D0074691C /* Fluid.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Fluid.hpp; sourceTree = "<group>"; };
+		37626271241AF96D0074691C /* FluidParticle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FluidParticle.cpp; sourceTree = "<group>"; };
+		37626272241AF96D0074691C /* Tester.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tester.hpp; sourceTree = "<group>"; };
+		37626274241AF96D0074691C /* Plane.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Plane.hpp; sourceTree = "<group>"; };
+		37626275241AF96D0074691C /* Camera.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Camera.hpp; sourceTree = "<group>"; };
+		37626276241AF96D0074691C /* Core.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Core.hpp; sourceTree = "<group>"; };
+		37626277241AF96D0074691C /* FluidParticle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FluidParticle.hpp; sourceTree = "<group>"; };
+		37626278241AF96D0074691C /* Tester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tester.cpp; sourceTree = "<group>"; };
+		37626279241AF96D0074691C /* Core.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Core.cpp; sourceTree = "<group>"; };
+		3762627A241AF96D0074691C /* Fluid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fluid.cpp; sourceTree = "<group>"; };
+		3762627B241AF96D0074691C /* SpatialHashTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpatialHashTable.cpp; sourceTree = "<group>"; };
+		3762627C241AF96D0074691C /* Plane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plane.cpp; sourceTree = "<group>"; };
+		3762627D241AF96D0074691C /* SpatialHashTable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SpatialHashTable.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37626258241AF8490074691C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3762626B241AF8EA0074691C /* libglfw.dylib in Frameworks */,
+				37626269241AF8C20074691C /* OpenGL.framework in Frameworks */,
+				37626267241AF8B60074691C /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37626252241AF8490074691C = {
+			isa = PBXGroup;
+			children = (
+				3762625D241AF8490074691C /* SPH-Fluid-Simulation */,
+				3762625C241AF8490074691C /* Products */,
+				37626265241AF8B60074691C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3762625C241AF8490074691C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3762625B241AF8490074691C /* SPH-Fluid-Simulation */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3762625D241AF8490074691C /* SPH-Fluid-Simulation */ = {
+			isa = PBXGroup;
+			children = (
+				3762626F241AF96D0074691C /* Camera.cpp */,
+				37626275241AF96D0074691C /* Camera.hpp */,
+				37626279241AF96D0074691C /* Core.cpp */,
+				37626276241AF96D0074691C /* Core.hpp */,
+				3762627A241AF96D0074691C /* Fluid.cpp */,
+				37626270241AF96D0074691C /* Fluid.hpp */,
+				37626271241AF96D0074691C /* FluidParticle.cpp */,
+				37626277241AF96D0074691C /* FluidParticle.hpp */,
+				3762627C241AF96D0074691C /* Plane.cpp */,
+				37626274241AF96D0074691C /* Plane.hpp */,
+				3762627B241AF96D0074691C /* SpatialHashTable.cpp */,
+				3762627D241AF96D0074691C /* SpatialHashTable.hpp */,
+				37626278241AF96D0074691C /* Tester.cpp */,
+				37626272241AF96D0074691C /* Tester.hpp */,
+				3762626C241AF96C0074691C /* Vector3.cpp */,
+				3762626D241AF96C0074691C /* Vector3.hpp */,
+			);
+			path = "SPH-Fluid-Simulation";
+			sourceTree = "<group>";
+		};
+		37626265241AF8B60074691C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3762626A241AF8EA0074691C /* libglfw.dylib */,
+				37626268241AF8C20074691C /* OpenGL.framework */,
+				37626266241AF8B60074691C /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3762625A241AF8490074691C /* SPH-Fluid-Simulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37626262241AF8490074691C /* Build configuration list for PBXNativeTarget "SPH-Fluid-Simulation" */;
+			buildPhases = (
+				37626257241AF8490074691C /* Sources */,
+				37626258241AF8490074691C /* Frameworks */,
+				37626259241AF8490074691C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SPH-Fluid-Simulation";
+			productName = "SPH-Fluid-Simulation";
+			productReference = 3762625B241AF8490074691C /* SPH-Fluid-Simulation */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37626253241AF8490074691C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Xindong Cai";
+				TargetAttributes = {
+					3762625A241AF8490074691C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 37626256241AF8490074691C /* Build configuration list for PBXProject "SPH-Fluid-Simulation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37626252241AF8490074691C;
+			productRefGroup = 3762625C241AF8490074691C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3762625A241AF8490074691C /* SPH-Fluid-Simulation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37626257241AF8490074691C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3762627E241AF96D0074691C /* Vector3.cpp in Sources */,
+				37626280241AF96D0074691C /* Camera.cpp in Sources */,
+				37626283241AF96D0074691C /* Core.cpp in Sources */,
+				37626286241AF96D0074691C /* Plane.cpp in Sources */,
+				37626281241AF96D0074691C /* FluidParticle.cpp in Sources */,
+				37626284241AF96D0074691C /* Fluid.cpp in Sources */,
+				37626282241AF96D0074691C /* Tester.cpp in Sources */,
+				37626285241AF96D0074691C /* SpatialHashTable.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37626260241AF8490074691C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		37626261241AF8490074691C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		37626263241AF8490074691C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"GL_SILENCE_DEPRECATION=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib\n/usr/local/lib\n",
+				);
+				MTL_ENABLE_DEBUG_INFO = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37626264241AF8490074691C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = "GL_SILENCE_DEPRECATION=1";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib\n/usr/local/lib\n",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37626256241AF8490074691C /* Build configuration list for PBXProject "SPH-Fluid-Simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37626260241AF8490074691C /* Debug */,
+				37626261241AF8490074691C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37626262241AF8490074691C /* Build configuration list for PBXNativeTarget "SPH-Fluid-Simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37626263241AF8490074691C /* Debug */,
+				37626264241AF8490074691C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37626253241AF8490074691C /* Project object */;
+}
